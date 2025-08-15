@@ -1,7 +1,8 @@
 class Solution {
     public String reverseWords(String s) {
         // Code here
-    
+    //Input: s = "..geeks..for.geeks."
+
         String s1=s.replaceAll("\\.+",".");
         String s2=s1.replaceAll("^\\.||\\.$","");
         
